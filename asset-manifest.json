@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/TaskPro-work/static/css/main.de30bca8.css",
-    "main.js": "/TaskPro-work/static/js/main.36cf2852.js",
+    "main.css": "/TaskPro-work/static/css/main.5a932d0d.css",
+    "main.js": "/TaskPro-work/static/js/main.a4dadbd4.js",
     "static/media/img+logo.png": "/TaskPro-work/static/media/img+logo.176367d2eb639129b063.png",
     "index.html": "/TaskPro-work/index.html",
-    "main.de30bca8.css.map": "/TaskPro-work/static/css/main.de30bca8.css.map",
-    "main.36cf2852.js.map": "/TaskPro-work/static/js/main.36cf2852.js.map"
+    "main.5a932d0d.css.map": "/TaskPro-work/static/css/main.5a932d0d.css.map",
+    "main.a4dadbd4.js.map": "/TaskPro-work/static/js/main.a4dadbd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.de30bca8.css",
-    "static/js/main.36cf2852.js"
+    "static/css/main.5a932d0d.css",
+    "static/js/main.a4dadbd4.js"
   ]
 }
