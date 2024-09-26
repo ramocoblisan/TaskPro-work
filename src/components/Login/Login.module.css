@@ -1,6 +1,6 @@
 .loginContainer {
   background: linear-gradient(180deg, rgba(196, 196, 196, 0) 25%, #BEDBB0 92.19%);
-  height: 812px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
 
 .container {
   width: 80vw;
-  height: 250px;
+  height: auto;
   margin: 0 auto;
   padding: 20px;
   background: #151515;
@@ -71,6 +71,30 @@
   height: 49px;
 }
 
+.passwordWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.passwordWrapper input {
+  width: 100%;
+  padding-right: 40px; 
+}
+
+.passwordToggle {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.errorMessage {
+  color: rgba(255, 255, 255, 0.377);
+}
+
+
 .submitBtn {
   width: 100%;
   padding: 10px;
@@ -91,5 +115,21 @@
   margin-top: 10px;
 }
 
+@media screen and (min-width: 768px) {
 
+  .container {
+    width: 40vw;
+    margin-top: 311px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .container {
+    width: 25vw;
+    margin-top: 200px;
+  }
+  
+}
 
